@@ -1,4 +1,5 @@
-document.body.addEventListener('mousemove' , () => {
-    console.log("ruch myszki");
+document.body.addEventListener('mousemove' , (event) => {
+    console.log(event.clientX, event.clientY)
+
 
 })
